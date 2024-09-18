@@ -28,7 +28,7 @@ export const MyPhoto = styled.img`
   height: 480px;
   width: 400px;
   border-radius: 50%;
-  animation: myAnim 5s ease 0s 2 normal both;
+  animation: myAnim 5s ease 0s 1 normal both;
   @keyframes myAnim {
     0% {
       animation-timing-function: ease-in;
@@ -73,9 +73,10 @@ export const MyPhoto = styled.img`
     }
   }
   @media (max-width: 768px) {
-    height: 350px;
+    height: 400px;
     widht: 10px;
     padding: 30px;
+    border: none;
   }
 `
 export const AboutCont = styled.div`
