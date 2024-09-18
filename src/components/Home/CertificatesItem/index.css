@@ -1,0 +1,23 @@
+/* Write your code here. */
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    height: 70px;
+    width: 90px;
+    border: 3px solid rgb(0, 255, 247);
+}
+
+.thumbnail-img {
+    border: none;
+    opacity: 0.5;
+  }
+  
+  .img-btn {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  

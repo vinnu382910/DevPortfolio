@@ -1,0 +1,115 @@
+.project-cont {
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .project-box {
+      height: 320px;
+      width: 300px;
+      box-shadow: 0px 0px 6px 6px #00ffe1, 5px 5px 10px 1px #000000;
+      background-size: cover;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .project-name {
+    text-align: center;
+    margin: 10px;
+    color: #00ffe1;
+  }
+  
+  .animate-on-view2 {
+    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation: swing-in-top-fwd 6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  }
+  
+  @-webkit-keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  @keyframes swing-in-top-fwd {
+    0% {
+      -webkit-transform: rotateX(-100deg);
+              transform: rotateX(-100deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+  }
+  
+  
+  .project-image {
+      height: 280px;
+      width: 100%; /* Ensures the whole image fits within the box */
+  }
+  
+  .link-cont {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px;
+      margin-top: 2px; /* Optional: Adds space above the link container */
+      margin-bottom: 3px;
+  }
+  
+  
+  /* From Uiverse.io by Spacious74 */ 
+  
+  /* From Uiverse.io by kamehame-ha */ 
+  .button {
+      height: 35px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      background-color: #3f296d;
+      outline: 2px #00ddff solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+    }
+    
+    .button .text {
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      transition: 400ms;
+    }
+    
+    .button:hover {
+      background-color: transparent;
+    }
+    
+    .button:hover .text {
+      color: #00ffea;
+    }
+    
+    .gitlogo {
+      height: 20px;
+      width: 20px;
+      border: none;
+    }

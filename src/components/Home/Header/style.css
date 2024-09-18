@@ -1,0 +1,164 @@
+h1 {
+    color: aliceblue;
+}
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px;
+    backdrop-filter: blur(15px) !important;
+    background-color: #1b1a2ea9 !important;
+    box-shadow: 0 10px 10px 0 rgba(9, 5, 29, .171);
+}
+
+.nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.items-Cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;  
+    margin-right: 20px;
+}
+
+.navItem {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ae75ff;
+    cursor: pointer;
+}
+
+
+.header-logo {
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+
+
+.nav-main-cont {
+    background-color: #343b48;
+    padding: 0px;
+    width: 100%;
+}
+
+.nav-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-heading-1 {
+    color: #02fa76;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+.nav-heading-2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+.nav-para {
+    color: #02fa76;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: center;
+}
+
+
+.list-icon {
+    font-size: 30px;
+}
+
+.items-list-cont {
+    display: none;
+}
+
+.items-list-cont2 {
+    display: none;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.lg-items {
+    display: flex;
+    flex-direction: row
+}
+
+.br-line {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-cont {
+        justify-content: space-between;
+    }
+    .lg-items {
+        display: none;
+    }
+    .menu-btn {
+        display: flex;
+        background-color: transparent;
+        border: transparent;
+        overflow: none;
+    }
+    .items-list-cont {
+        position: fixed;
+        z-index: 1000;
+        margin-top: 6vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #161917;
+    }
+    .items-list-cont2 {
+        display: none;
+    }
+    .br-line {
+        display: block;
+        width: 100%;
+        height: 2px;
+    }
+    nav {
+        padding: 4px;
+    }
+}
+
+.nav-logo {
+    height: 30px;
+}
+
+
+.item {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Open Sans;
+    padding-left: 20px;
+}

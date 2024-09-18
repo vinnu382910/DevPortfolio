@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+.skills_section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 13%;
+    background-color: #131315; /* Updated background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.skills_head {
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.skills_head h2 {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.skills_head h2 span {
+    color: #e74d06;
+}
+
+.skills_main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.skills_main .skill_bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill_bar .info p:nth-child(2) {
+    font-weight: 500;
+}
+
+.skill_bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill_bar .bar span {
+    height: 100%;
+    position: absolute;
+    border-radius: 25px;
+    background: linear-gradient(to right, #ffffff, #e74d06); /* Default gradient */
+    animation: barAnimation 2s forwards;
+}
+
+@keyframes barAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: var(--skill-width);
+    }
+}
+
+.skill_bar .bar .html {
+    --skill-width: 100%;
+    background: linear-gradient(105.32deg, #CAA2CA 25.75%, #BA2CB8 88.38%);
+}
+
+.skill_bar .bar .bootstrap {
+    --skill-width: 100%;
+    background: linear-gradient(to right, #6d29ff, #50a1e3);
+}
+
+.skill_bar .bar .css {
+    --skill-width: 100%;
+    background: linear-gradient(to right, #5c6bc0, #42a5f5);
+}
+
+.skill_bar .bar .python {
+    --skill-width: 100%;
+    background: linear-gradient(285.49deg, #F7BE2B 0%, #FEF3D9 100%);
+}
+
+.skill_bar .bar .js {
+    --skill-width: 100%;
+    background: linear-gradient(285.49deg, #F7BE2B 0%, #FEF3D9 100%);
+}
+
+.skill_bar .bar .git {
+    --skill-width: 100%;
+    background: linear-gradient(285.49deg, #F7BE2B 0%, #FEF3D9 100%);
+}
+
+.skill_bar .bar .react {
+    --skill-width: 95%;
+    background: linear-gradient(285.49deg, #46E3B7 0%, #C3EBE0 100%);
+}
+
+.skill_bar .bar .node {
+    --skill-width: 100%;
+    background: linear-gradient(286.62deg, #CBD5E1 0%, #6D6D6D 92.89%);
+}
+
+.skill_bar .bar .sql {
+    --skill-width: 100%;
+    background: linear-gradient(105.32deg, #C1EADF 25.75%, #46E3B7 88.38%);
+}
+
+.skill_bar .bar .flexbox {
+    --skill-width: 100%;
+    background: linear-gradient(285.49deg, #F7BE2B 0%, #FEF3D9 100%);
+}
+
+
+.skill_bar .bar .dsa {
+    --skill-width: 50%;
+    background: linear-gradient(to right, #757575, #212121);
+}
+
+.skill_bar .bar .mongo {
+    --skill-width: 100%;
+    background: linear-gradient(to right, #4db33d, #388e3c);
+}
+
+.skill-cont {
+    display: flex;
+    flex-direction: row
+}
+
+.skill-name {
+    margin-left: 10px;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, #cbd5e1 30%, #cbd5e161);
+    background-clip: text;
+}
+
+.skill-img {
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,20 @@
+.footer-cont {
+    background-color: #343b48;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.footer-para {
+    color: #ffffff;
+}
+
+.copyright {
+    font-weight: bold;
+}
