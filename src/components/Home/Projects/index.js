@@ -140,7 +140,7 @@ class Projects extends Component {
         return (
             <div className="project-main-cont" id="projects">
                 <h1 className="main-heading2">Projects</h1>
-                <div className={showMore ? "showAllItes" : "projet-list-cont"}>
+                <div className={showMore ? "showAllItems" : "projet-list-cont"}>
                     {
                     projectsList.map(eachItem => (<ProjectItem key={eachItem.id} projectDetails={eachItem} />))
                     }

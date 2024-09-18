@@ -1,8 +1,14 @@
 .project-cont {
-    margin-right: 50px;
-    margin-bottom: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .project-cont {
+    margin-right: 0px;
   }
-  
+}
+
   .project-box {
       height: 320px;
       width: 300px;
