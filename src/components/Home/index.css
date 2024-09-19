@@ -202,18 +202,18 @@ a {
   }
   
   .animated-text span::after {
+    background: #fff;
     content: "";
     position: absolute;
     width: calc(100% + 8px);
     right: -8px;
     height: 110%;
-    background: inherit;
     animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
   }
   
   @keyframes cursor {
     to {
-        border-left: 0px solid #00ff15;
+        border-left: 3px solid #000000;
     }
   }
   

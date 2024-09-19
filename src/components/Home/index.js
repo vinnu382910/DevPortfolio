@@ -68,26 +68,29 @@ const HomeCont = styled.div`
   position: relative; /* Positioning context for shooting stars */
   overflow: hidden; /* Hides overflow of shooting stars */
   background-image: linear-gradient(
-    120deg,
+    140deg,
     hsl(0deg 0% 100%) 0%,
-    hsl(189deg 86% 97%) 13%,
-    hsl(189deg 86% 93%) 23%,
-    hsl(189deg 86% 90%) 31%,
-    hsl(189deg 86% 87%) 37%,
-    hsl(219deg 84% 87%) 43%,
-    hsl(259deg 79% 89%) 48%,
-    hsl(300deg 73% 91%) 52%,
-    hsl(340deg 64% 93%) 57%,
-    hsl(0deg 54% 93%) 61%,
-    hsl(0deg 48% 92%) 66%,
-    hsl(0deg 44% 90%) 70%,
-    hsl(0deg 41% 89%) 74%,
-    hsl(0deg 30% 86%) 79%,
-    hsl(0deg 12% 77%) 84%,
-    hsl(0deg 5% 68%) 89%,
-    hsl(0deg 2% 58%) 94%,
-    hsl(0deg 0% 49%) 100%
+    hsl(0deg 0% 100%) 2%,
+    hsl(0deg 0% 100%) 5%,
+    hsl(0deg 0% 100%) 7%,
+    hsl(0deg 0% 100%) 11%,
+    hsl(197deg 59% 98%) 15%,
+    hsl(197deg 59% 96%) 20%,
+    hsl(197deg 59% 93%) 26%,
+    hsl(197deg 59% 90%) 33%,
+    hsl(197deg 58% 87%) 42%,
+    hsl(234deg 53% 87%) 52%,
+    hsl(271deg 49% 87%) 62%,
+    hsl(307deg 44% 87%) 72%,
+    hsl(344deg 39% 87%) 80%,
+    hsl(3deg 36% 88%) 86%,
+    hsl(2deg 35% 91%) 91%,
+    hsl(2deg 33% 93%) 95%,
+    hsl(2deg 27% 96%) 98%,
+    hsl(0deg 0% 99%) 100%
   );
+  
+
   
   content: 'vinay';
   background-size: 100% 100%;
