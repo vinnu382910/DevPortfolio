@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from 'react';
-import './style.css'
+import './style.css';
 
 const ProjectItem = (props) => {
-  const { projectDetails } = props; // Corrected typo: 'projetDetails' to 'projectDetails'
-  const {imgUrl, projectName, githubLink, projectUrl} = projectDetails
+  const { projectDetails } = props;
+  const { imgUrl, projectName, githubLink, projectUrl } = projectDetails;
   const imageRef = useRef(null);
   let observer = useRef(null);
 
@@ -14,8 +14,11 @@ const ProjectItem = (props) => {
       ([entry]) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-on-view2');
-        } else {
-          entry.target.classList.remove('animate-on-view2');
+
+          // Disconnect the observer after the first intersection
+          if (observer.current) {
+            observer.current.disconnect();
+          }
         }
       },
       { threshold: 0.1 }
@@ -30,7 +33,7 @@ const ProjectItem = (props) => {
         observer.current.unobserve(img);
       }
     };
-  }, []); // Empty dependency array means this effect runs once on mount and clean up on unmount
+  }, []); // Effect runs once on mount and clean up on unmount
 
   return (
     <div className='project-cont'>
