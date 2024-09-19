@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
-.skills_section {
-    width: 100%;
+.skills-main-cont {
     min-height: 100vh;
-    padding: 0px 13%;
-    background-color: #131315; /* Updated background color */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 20px;
+}
+
+.skills_section {
+    border: 2px solid violet;
+    background-color: #131315;
+    padding: 20px;
+    width: 80%;
 }
 
 .skills_head {
     width: 100%;
-    margin-bottom: 100px;
     display: grid;
     place-items: center;
     text-align: center;
@@ -30,6 +33,8 @@
 }
 
 .skills_main {
+    background-color: #131315; /* Updated background color */
+    padding: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -154,4 +159,5 @@
 .skill-img {
     height: 30px;
     width: 30px;
+    border: none;
 }

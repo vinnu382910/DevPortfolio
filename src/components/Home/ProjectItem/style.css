@@ -23,7 +23,7 @@
   .project-name {
     text-align: center;
     margin: 10px;
-    color: #00ffe1;
+    color: #7802a3;
     font-weight: bold;
   }
   
@@ -108,11 +108,14 @@
     }
     
     .button:hover {
+      outline: 2px #000 solid;
       background-color: transparent;
     }
     
     .button:hover .text {
-      color: #00ffea;
+      font-weight: bold;
+      font-size: 14px;
+      color: #000;
     }
     
     .gitlogo {

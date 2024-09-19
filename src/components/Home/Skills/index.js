@@ -18,26 +18,28 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div className="skills_section" id='skills'>
-            <div className="skills_head">
-                <h2>My <span>Skills</span></h2>
-                <p>Here is my skills to represent my Expertise</p>
-            </div>
-            <div className="skills_main">
-                {skills.map((skill, index) => (
-                    <div className="skill_bar" key={index}>
-                        <div className="info">
-                            <div className='skill-cont'>
-                                <img src={skill.imgUrl} alt={skill.name} className='skill-img'/>
-                                <p className='skill-name'>{skill.name}</p>
+        <div className='skills-main-cont' id='skills'>
+            <div className="skills_section">
+                <div className="skills_head">
+                    <h2>My <span>Skills</span></h2>
+                    <p>Here is my skills to represent my Expertise</p>
+                </div>
+                <div className="skills_main">
+                    {skills.map((skill, index) => (
+                        <div className="skill_bar" key={index}>
+                            <div className="info">
+                                <div className='skill-cont'>
+                                    <img src={skill.imgUrl} alt={skill.name} className='skill-img'/>
+                                    <p className='skill-name'>{skill.name}</p>
+                                </div>
+                                <p>{skill.percentage}</p>
                             </div>
-                            <p>{skill.percentage}</p>
+                            <div className="bar">
+                                <span className={skill.className}></span>
+                            </div>
                         </div>
-                        <div className="bar">
-                            <span className={skill.className}></span>
-                        </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );

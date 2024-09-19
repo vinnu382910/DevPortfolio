@@ -1,8 +1,5 @@
 /* Write your code here. */
 .Photography-cont {
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -16,14 +13,16 @@
     width: 800px;
   }
   .main-heading {
-    font-family: Roboto;
+    font-family: "Roboto" sans-serif;
     font-weight: bold;
   }
   .para {
     margin: 20px;
-    color: #00ffae;
-    font-family: Roboto;
+    color: solid;
+    color: #9000ff;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 18px;
   }
   
   .thumnails-cont {

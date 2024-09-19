@@ -6,14 +6,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #000;
 }
 
 .form-container {
     background-color: #000;
     width: 500px;
     border-radius: 0.75rem;
-    border: 2px solid rgb(0, 255, 242);
+    border: 3px solid rgb(0, 255, 242);
     padding: 2rem;
     color: rgba(243, 244, 246, 1);
     margin-bottom: 20px;

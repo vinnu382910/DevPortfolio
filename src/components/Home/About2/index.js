@@ -36,7 +36,7 @@ const About2 = () => {
               <p className="role">Full Stack Developer</p>
               <p class="about-content">👋 Hey there! I'm Vinay, a passionate full-stack developer with a knack for building robust and user-friendly web applications.I'm currently in my final year pursuing a B.Tech in Computer Science with a specialization in Cyber Security at Ganapathy Engineering College. I thrive on turning ideas 👨‍💻.<br />In 2022, I embarked on a transformative journey with Nxt Wave 🚀, where I honed my skills in Frontend development 🎨. Since then, I've been dedicated to expanding my expertise 📚 and diving into Backend technologies 🔧.</p>
               <div className='mail-cont'>
-                <p class="abot-mail"><span class="mail">Email :</span> vinaykalva712@gmail.com</p>
+                <p class="about-mail"><span class="mail">Email :</span> vinaykalva712@gmail.com</p>
                 <p className='about-mail'><span class="mail">Place :</span> Telangana, India - 506371</p>
               </div>
             </div>

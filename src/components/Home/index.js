@@ -67,7 +67,28 @@ const HomeCont = styled.div`
   min-height: 100vh;
   position: relative; /* Positioning context for shooting stars */
   overflow: hidden; /* Hides overflow of shooting stars */
-  background-color: #000;
+  background-image: linear-gradient(
+    120deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(189deg 86% 97%) 13%,
+    hsl(189deg 86% 93%) 23%,
+    hsl(189deg 86% 90%) 31%,
+    hsl(189deg 86% 87%) 37%,
+    hsl(219deg 84% 87%) 43%,
+    hsl(259deg 79% 89%) 48%,
+    hsl(300deg 73% 91%) 52%,
+    hsl(340deg 64% 93%) 57%,
+    hsl(0deg 54% 93%) 61%,
+    hsl(0deg 48% 92%) 66%,
+    hsl(0deg 44% 90%) 70%,
+    hsl(0deg 41% 89%) 74%,
+    hsl(0deg 30% 86%) 79%,
+    hsl(0deg 12% 77%) 84%,
+    hsl(0deg 5% 68%) 89%,
+    hsl(0deg 2% 58%) 94%,
+    hsl(0deg 0% 49%) 100%
+  );
+  
   content: 'vinay';
   background-size: 100% 100%;
   background-blend-mode: screen;
@@ -258,7 +279,7 @@ const Home = () => {
         </AboutCont>
       </Sections>
       <About2 />
-      <Skills />
+      <Skills/>
       <Projects />
       <Certificates />
       <ContactUs />

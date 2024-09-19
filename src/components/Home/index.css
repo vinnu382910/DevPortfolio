@@ -8,17 +8,19 @@ a {
   }
   
   .heading1 {
-      color: #01ff09;
+      color: #000000;
       font-size: 40px;
       margin: 0px;
       margin-bottom: 20px;
+      font-weight: bold;
   }
   
   .heading2 {
-      color: hwb(225 7% 6%);
+      color: hwb(0 0% 100%);
       font-size: 40px;
       margin: 0px;
       margin-bottom: 20px;
+      font-weight: bold;
   }
   
   .resume-btn {
@@ -33,7 +35,7 @@ a {
     cursor: pointer;
     user-select: none;
     overflow: hidden;
-    color: rgb(255, 255, 0);
+    color: rgba(143, 63, 255);
     z-index: 1;
     font-family: inherit;
     font-weight: 500;
@@ -57,7 +59,7 @@ a {
     position: absolute;
     width: 8%;
     height: 500%;
-    background: rgb(143, 63, 255);
+    background: #f7f9fa;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-60deg);
@@ -179,7 +181,7 @@ a {
   
   
   .animated-text {
-    color: #70ffbf;
+    color: #000000;
     font-size: 34px;
     font-weight: 600;
     min-width: 450px;
@@ -205,14 +207,13 @@ a {
     width: calc(100% + 8px);
     right: -8px;
     height: 110%;
-    background-color: #111827;
-    font: none;
+    background: inherit;
     animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
   }
   
   @keyframes cursor {
     to {
-        border-left: 3px solid #00ff15;
+        border-left: 0px solid #00ff15;
     }
   }
   

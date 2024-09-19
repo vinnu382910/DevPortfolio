@@ -80,7 +80,6 @@ export const MyPhoto = styled.img`
   }
 `
 export const AboutCont = styled.div`
-  background: linear-gradient(to bottom, #111827, #111827);
   display: flex;
   flex-directio: row;
   justify-content: space-around;

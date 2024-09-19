@@ -2,10 +2,6 @@
     padding: 50px;
     min-height: 100vh;
     width: 100%;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .about-cont {
@@ -72,14 +68,14 @@
     font-family: Roboto;
     font-size: 45px;
     font-weight: bold;
-    color: #05dbfc;
+    color: #000000;
 }
 
 .role {
     font-family: Roboto;
     font-size: 24px;
     font-weight: bold;
-    color: #57ff62;
+    color: #c04aff;
     margin-top: 10px;
 }
 
@@ -88,7 +84,9 @@
     font-family: Roboto;
     font-size: 20px;
     padding-top: 15px;
-    font-weight: 300;
+    font-weight: 450;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .mail-cont {
@@ -98,11 +96,12 @@
 .about-mail {
     font-family: Roboto;
     font-size: 24px;
+    color: blue;
 }
 
 .mail {
-    color: #1389ff;
-    font-weight: 500;
+    color: #000000;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -113,22 +112,9 @@
 }
 
 .main-heading {
-    background: conic-gradient(from 0deg at center top, rgb(75, 255, 111), rgb(243, 244, 246), rgb(224, 255, 19));
-    background-clip: text; /* For Firefox */
-    -webkit-background-clip: text; /* For Chrome, Safari, Edge */
-    -webkit-text-fill-color: transparent; /* For Chrome, Safari, Edge */
-    color: transparent; /* Fallback for unsupported browsers */
+    color: #000000;
     text-align: center;
-    background-size: 500% auto;
-    animation: textShine 0.2s ease-in-out infinite alternate;
-    font-size: 48px;
-}
-
-@keyframes textShine {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
 }
