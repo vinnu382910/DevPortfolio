@@ -103,7 +103,7 @@ export const StyledWrapper = styled.div`
   align-items: center;
 }
 .example-2 .icon-content {
-  margin: 0 10px;
+  margin-right: 25px;
   position: relative;
 }
 .example-2 .icon-content .tooltip {
@@ -135,6 +135,7 @@ export const StyledWrapper = styled.div`
   border-radius: 50%;
   color: #4d4d4d;
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
 .example-2 .icon-content a:hover {

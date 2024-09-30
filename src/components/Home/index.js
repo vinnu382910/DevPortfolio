@@ -90,8 +90,6 @@ const HomeCont = styled.div`
     hsl(0deg 0% 99%) 100%
   );
   
-
-  
   content: 'vinay';
   background-size: 100% 100%;
   background-blend-mode: screen;
