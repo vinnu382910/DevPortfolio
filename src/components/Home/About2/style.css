@@ -5,7 +5,7 @@
 }
 
 .about-cont {
-    margin-top: 10%;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,6 +22,8 @@
     height: 100%;
     width: 300px;
     margin-right: 40px;
+    border: none;
+    border-radius: 10px;
 }
 
 .animate-on-view {
@@ -112,7 +114,10 @@
 }
 
 .main-heading {
-    color: #000000;
+    background: -webkit-linear-gradient(rgb(20, 12, 241), rgb(4, 212, 167));
+    -webkit-background-clip: text; /* For WebKit browsers (Safari, Chrome) */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Make the actual text color transparent */
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;

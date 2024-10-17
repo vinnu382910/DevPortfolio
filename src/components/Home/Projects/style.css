@@ -8,24 +8,13 @@
 }
 .main-heading2 {
     font-weight: bold;
-    background: conic-gradient(at center top, rgb(77, 255, 0), rgb(255, 255, 255), rgb(255, 0, 77));
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
     background-clip: text; /* For Firefox */
     -webkit-background-clip: text; /* For Chrome, Safari, Edge */
     -webkit-text-fill-color: transparent; /* For Chrome, Safari, Edge */
     color: transparent; /* Fallback for unsupported browsers */
     text-align: center;
-    background-size: 500% auto;
-    animation: textShine 0.5s ease-in-out infinite alternate;
     font-size: 48px;
-}
-
-@keyframes textShine {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
 }
 
 .projet-list-cont {

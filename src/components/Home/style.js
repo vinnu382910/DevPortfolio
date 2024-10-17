@@ -26,9 +26,10 @@ export const About = styled.div`
 `
 export const MyPhoto = styled.img`
   height: 480px;
-  width: 400px;
+  width: 450px;
   border-radius: 50%;
   animation: myAnim 5s ease 0s 1 normal both;
+  border: none;
   @keyframes myAnim {
     0% {
       animation-timing-function: ease-in;

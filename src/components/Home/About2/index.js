@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Tilt from 'react-parallax-tilt';
 import './style.css';
 
 const About2 = () => {
@@ -34,12 +35,14 @@ const About2 = () => {
     <div className='about' id="about">
       <h1 className='main-heading'>About</h1>
       <div className="about-cont">
-        <img
-          src="https://res.cloudinary.com/dgc9ugux7/image/upload/v1726670239/5_zn6xlo.png"
-          alt="image-me"
-          className="image"
-          ref={imageRef}
-        />
+        <Tilt>
+          <img
+            src="https://res.cloudinary.com/dgc9ugux7/image/upload/v1729162938/IMG_20240622_170531_k7incs.jpg"
+            alt="image-me"
+            className="image"
+            ref={imageRef}
+          />
+        </Tilt>
         <div className="desc-cont">
           <h1 className="name">Kalva Vinay</h1>
           <p className="role">Full Stack Developer</p>

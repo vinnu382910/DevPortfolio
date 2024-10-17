@@ -8,6 +8,7 @@ import ContactUs from './ContactUs'
 import Footer from './Footer';
 import styled, { keyframes } from 'styled-components';
 import { Sections, About, StyledWrapper, MyPhoto, AboutCont} from './style';
+import Tilt from 'react-parallax-tilt';
 import './index.css'
 
 // Keyframes for flickering stars
@@ -165,7 +166,7 @@ const Home = () => {
         <Header />
         <AboutCont >
             <About>
-            <h1 className='heading1'>Hii Developer </h1>
+            <h1 className='heading1'>Hii There </h1>
             <h1 className='heading2'>Iam Vinay</h1>
             <div class="animated-text">
                 I'm a <span></span>
@@ -276,7 +277,9 @@ const Home = () => {
                 </ul>
             </StyledWrapper>
             </About>
-            <MyPhoto src="https://res.cloudinary.com/dgc9ugux7/image/upload/v1702436919/38530438811_2_jfdmrz.png" alt="myPhoto" />
+            <Tilt>
+              <MyPhoto src="https://res.cloudinary.com/dgc9ugux7/image/upload/v1729164568/image1_0_ccqiou.jpg" alt="myPhoto" />
+            </Tilt>
         </AboutCont>
       </Sections>
       <About2 />
