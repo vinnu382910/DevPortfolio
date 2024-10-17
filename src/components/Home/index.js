@@ -165,7 +165,7 @@ const Home = () => {
         <Header />
         <AboutCont >
             <About>
-            <h1 className='heading1'>Hii There </h1>
+            <h1 className='heading1'>Hii Developer </h1>
             <h1 className='heading2'>Iam Vinay</h1>
             <div class="animated-text">
                 I'm a <span></span>
