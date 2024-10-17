@@ -75,7 +75,7 @@ export const MyPhoto = styled.img`
   }
   @media (max-width: 768px) {
     height: 400px;
-    widht: 10px;
+    width: 350px;
     padding: 30px;
     border: none;
   }
