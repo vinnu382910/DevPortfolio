@@ -23,6 +23,10 @@ a {
       font-weight: bold;
   }
   
+  .home-name {
+    color: #ff9500;
+  }
+
   .resume-btn {
     margin-top: 20px;
     margin-left: 0px;
