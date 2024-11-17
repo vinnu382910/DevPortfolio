@@ -5,6 +5,13 @@ import './style.css'
 
 const projectsList = [
     {
+        imgUrl: 'https://res.cloudinary.com/dgc9ugux7/image/upload/v1731841628/React_App_-_Google_Chrome_11_17_2024_4_34_42_PM_bwwv9g.png',
+        projectName: 'Todo App',
+        githubLink: 'https://github.com/vinnu382910/todo-frontend',
+        projectUrl: 'https://todo-frontend-sigma-dusky.vercel.app/',
+        id: uuidv4()
+    },
+    {
         imgUrl: 'https://res.cloudinary.com/dgc9ugux7/image/upload/v1726011863/nxt-watch-home-failure-light-theme-lg-output_rypiy5.png',
         projectName: 'Nxt Watch',
         githubLink: 'https://github.com/vinnu382910/Nxt-Watch',
