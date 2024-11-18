@@ -190,4 +190,4 @@ export const StyledWrapper = styled.div`
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
 }
-`
+`;

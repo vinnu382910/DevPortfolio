@@ -168,7 +168,7 @@ const Home = () => {
             <About>
             <h1 className='heading1'>Hii There </h1>
             <h1 className='heading2'>Iam <span className='home-name'>Vinay</span></h1>
-            <div class="animated-text">
+            <div className="animated-text">
                 I'm a <span></span>
             </div>
             <a href="https://drive.google.com/file/d/1Bk9x3uqJiBDTdKj60-na9Uux6rsMMFY_/view?usp=sharing">

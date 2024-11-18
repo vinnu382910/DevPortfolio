@@ -9,8 +9,8 @@ const Header = () =>{
     }
     console.log(showMenu)
     return (
-      <div class="nav-main-cont">
-      <nav class="nav-cont">
+      <div className="nav-main-cont">
+      <nav className="nav-cont">
           <div>
             <img src="https://res.cloudinary.com/dgc9ugux7/image/upload/v1726017261/vinay572-high-resolution-logo-transparent_1_crigre.png" alt="logo" className='header-logo'/>
           </div>
@@ -74,37 +74,37 @@ const Header = () =>{
                     )
                 }
             </button>
-            <div class="lg-items">
-                <hr class="br-line"/>
-                <a class="item" href="#home">Home</a>
-                <hr class="br-line"/>
-                <a class="item" href="#about">About</a>
-                <hr class="br-line"/>
-                <a class="item" href="#skills">Skills</a>
-                <hr class="br-line"/>
-                <a class="item" href="#projects">Projects</a>
-                <hr class="br-line"/>
-                <a class="item" href="#certificate">Certificate</a>
-                <hr class="br-line"/>
-                <a class="item" href="#contactus">ContactUs</a>
-                <hr class="br-line"/>
+            <div className="lg-items">
+                <hr className="br-line"/>
+                <a className="item" href="#home">Home</a>
+                <hr className="br-line"/>
+                <a className="item" href="#about">About</a>
+                <hr className="br-line"/>
+                <a className="item" href="#skills">Skills</a>
+                <hr className="br-line"/>
+                <a className="item" href="#projects">Projects</a>
+                <hr className="br-line"/>
+                <a className="item" href="#certificate">Certificate</a>
+                <hr className="br-line"/>
+                <a className="item" href="#contactus">ContactUs</a>
+                <hr className="br-line"/>
             </div>
           </div>
       </nav>
-      <div class={showMenu ? "items-list-cont2" : "items-list-cont"}>
-          <hr class="br-line"/>
-          <a class="item" href="#home">Home</a>
-          <hr class="br-line"/>
-          <a class="item" href="#about">About</a>
-          <hr class="br-line"/>
-          <a class="item" href="#skills">Skills</a>
-          <hr class="br-line"/>
-          <a class="item" href="#projects">Projects</a>
-          <hr class="br-line"/>
-          <a class="item" href="#certificate">Certificate</a>
-          <hr class="br-line"/>
-          <a class="item" href="#contactus">ContactUs</a>
-          <hr class="br-line"/>
+      <div className={showMenu ? "items-list-cont2" : "items-list-cont"}>
+          <hr className="br-line"/>
+          <a className="item" href="#home">Home</a>
+          <hr className="br-line"/>
+          <a className="item" href="#about">About</a>
+          <hr className="br-line"/>
+          <a className="item" href="#skills">Skills</a>
+          <hr className="br-line"/>
+          <a className="item" href="#projects">Projects</a>
+          <hr className="br-line"/>
+          <a className="item" href="#certificate">Certificate</a>
+          <hr className="br-line"/>
+          <a className="item" href="#contactus">ContactUs</a>
+          <hr className="br-line"/>
       </div>
   </div>
     )
