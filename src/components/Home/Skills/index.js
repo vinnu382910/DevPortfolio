@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './skills.css';
 
 const skills = [
@@ -17,6 +17,28 @@ const skills = [
 ];
 
 const Skills = () => {
+    const skillsRef = useRef(null);
+    const [animate, setAnimate] = useState(false);
+
+    useEffect(() => {
+        const section = skillsRef.current;
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setAnimate(false); // Reset animation
+                    setTimeout(() => setAnimate(true), 50); // Restart animation
+                }
+            },
+            { threshold: 0.4 } // Adjust threshold to ensure a smooth trigger
+        );
+
+        if (section) observer.observe(section);
+
+        return () => {
+            if (section) observer.unobserve(section);
+        };
+    }, []);
     return (
         <div className='skills-main-cont' id='skills'>
             <div className="skills_section">
